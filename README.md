@@ -37,3 +37,5 @@ I appreciate your interest in contributing to my website, but at the moment, I'm
 This website is my personal project, and all content and code are protected by copyright. Please respect the terms and conditions outlined on the website regarding the use and distribution of any materials.
 
 Thank you for checking out my website, and I hope you find it interesting and informative!
+
+© FluKM 2023
