@@ -21,6 +21,7 @@ Here's a glimpse into what you can find on my website:
 - **About Me**: Learn more about who I am, my background, and my interests.
 - **Blog**: Read my articles, musings, and insights on various topics.
 - **Contact**: Connect with me through the provided contact information.
+- **Portfolio**: Explore my past projects and get a glimpse of my work.
 
 Please check it out and let me know what you think!
 
