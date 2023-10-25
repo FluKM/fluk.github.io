@@ -26,7 +26,7 @@ Please check it out and let me know what you think!
 
 ## Getting Started
 
-To access my website, simply visit https://flukm.github.io(#) in your web browser. You don't need to set up anything on your local machine since the website is hosted online. Enjoy exploring the content and don't hesitate to reach out if you have any questions or feedback.
+To access my website, simply visit https://flukm.github.io in your web browser. You don't need to set up anything on your local machine since the website is hosted online. Enjoy exploring the content and don't hesitate to reach out if you have any questions or feedback.
 
 ## Contributing
 
