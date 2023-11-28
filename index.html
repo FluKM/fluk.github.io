@@ -1,33 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>FLUK</title>
+	<title>FLUK</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/fluk.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/fluk-removebg-preview (1).png">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+		}		
+		video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
+			z-index: -1;
+			filter: brightness(70%);
+		}		
+		.navbar {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			padding: 20px;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			background-color: transparent(255, 255, 255, 0.5);
+			z-index: 1;
+		}
+		
+		.navbar a {
+			color: cyan;
+			font-size: 15px;
+			font-weight: italic;
+			margin-right: 20px;
+			text-decoration: none;
+			transition: color 0.2s ease-in-out;
+		}
+		
+		.navbar a:hover {
+			color: white;
+		}
+	</style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blogs</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="welcome-section">
-            <div class="bg-image" id="bg-image"></div>
-            <div class="content">
-                <h1 id="name">Varunraj Desai</h1>
-                <p id="role">Coder by Day</p>
-            </div>
-        </section>
-    </main>
-    <script src="script.js"></script>
+	<video autoplay loop muted>
+		<source src="https://assets.mixkit.co/videos/preview/mixkit-video-of-the-earth-slowly-spinning-on-its-axis-29351-large.mp4" type="video/mp4">
+	</video>
+	<div class="navbar">
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="https://flukmav.blogspot.com/">Blog</a></li>
+		<li><a href="https://instagram.com/vxrunrxj">Instagram</a></li>
+		<li><a href="https://discord.com/invite/5rgW3cJTPM">Discord</a></li>
+		<li><a href="https://github.com/FluKM">GitHub</a></li>
+	</div>
 </body>
 </html>
