@@ -9,7 +9,7 @@
     
     position: relative;
     overflow: hidden;
-    width: calc(25% - 15px); /* 25% width for each item with 20px margin between items */
+    width: calc(25% - 15px); 
     margin: 60px;
     height: 200px;
 }   
@@ -42,14 +42,13 @@
     }
 
     body {
-        background-image: url('img/bg.jpg'); /* Specify the path to your background image */
+        background-image: url('img/bg.jpg'); 
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        /* Add any other background styles you need */
     }
     header {
-        background-color: transparent; /* RGBA values with alpha transparency */
+        background-color: transparent;
         color: #fff;
         padding: 15px 0;
         position: fixed;
@@ -61,14 +60,14 @@
 
 
     .transparent-content {
-        background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value for transparency */
-        padding: 20px; /* Adjust the padding as needed */
-        border-radius: 10px; /* Add rounded corners */
+        background-color: rgba(0, 0, 0, 0.7); 
+        padding: 20px; 
+        border-radius: 10px;
     }
     .container {
         position: relative;
         text-align: center;
-        padding: 100px; /* Adjust the padding as needed */
+        padding: 100px; 
     }
 
     h3{
