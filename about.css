@@ -1,5 +1,5 @@
 header {
-    background-color: transparent; /* RGBA values with alpha transparency */
+    background-color: transparent;
     color: #fff;
     padding: 15px 0;
     position: fixed;
@@ -9,52 +9,50 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
-    background-image: url('/img/bg.jpg'); /* Add the path to your background image */
+    background-image: url('/img/bg.jpg');
     background-size: cover;
     background-position: center;
-    color: white; /* Set text color to white for better visibility on the background */
+    color: white;
 }
 
 .container {
     position: relative;
     text-align: center;
-    padding: 100px; /* Adjust the padding as needed */
+    padding: 100px;
 }
 
 .profile-img {
     border-radius: 50%;
-    width: 200px; /* Adjust the width of the image */
-    height: 200px; /* Adjust the height of the image */
-    transition: transform 0.5s; /* Add a smooth transition effect */
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s;
 }
 
 .profile-img:hover {
-    transform: rotate(360deg); /* Rotate the image 360 degrees on hover */
+    transform: rotate(360deg); 
 }
 
 .details {
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px; 
 }
 
 .skills,
 .ide {
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px; 
 }
 
 .download-cv {
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px;
 }
 
-/* Additional styling for the transparent content */
 .transparent-content {
-    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value for transparency */
-    padding: 20px; /* Adjust the padding as needed */
-    border-radius: 10px; /* Add rounded corners */
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px; 
 }
 
-/* Style for the button */
 .download-cv button {
-    background-color: #4CAF50; /* Green color */
+    background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -63,5 +61,5 @@ body {
 }
 
 .download-cv button:hover {
-    background-color: #45a049; /* Darker green color on hover */
+    background-color: #45a049; 
 }
