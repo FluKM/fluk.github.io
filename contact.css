@@ -1,10 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: transparent;
+  color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  margin: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: cyan;
+  font-weight: bold;
+  font-size: 16px;
+}
 .social-and-contact {
-    max-width: 800px;
-    margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 .social-icons {
-    text-align: center;
+  text-align: center;
 }
 
 h1{
@@ -13,8 +47,8 @@ h1{
 }
 
 img{
-    width: 7%;
-    height: 7%;
+  width: 7%;
+  height: 7%;
 }
 .bg{
   position: absolute;
@@ -25,6 +59,14 @@ img{
   background-image: url('./img/bg.jpg'); 
   background-size: cover;
   filter: brightness(0.7); 
+}
+
+button{
+  background-color: transparent;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
 }
 
 #fs-frm input,
@@ -97,7 +139,6 @@ img{
   color: white;
   background-color: transparent;
 }
-
 .transparent-content {
   width: auto;
   height: auto;
