@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', function () {
         roleIndex = (roleIndex + 1) % roles.length;
     }
 
-    setInterval(changeRole, 2000); // Change role every 2 seconds
+    setInterval(changeRole, 2000);
 });
